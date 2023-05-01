@@ -6,6 +6,12 @@ const fs = require("fs");
 app.use(cors());
 app.set("view engine", "ejs");
 
+const homeRaw = fs.readFileSync("home.json");
+const home = JSON.parse(homeRaw);
+app.get("/home", (req, res) => {
+  res.json(home);
+});
+
 const organizersRaw = fs.readFileSync("organizing_comitee.json");
 const organizers = JSON.parse(organizersRaw);
 app.get("/organizers", (req, res) => {
