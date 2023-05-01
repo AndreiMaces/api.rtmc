@@ -36,6 +36,12 @@ app.get("/speakers", (req, res) => {
   res.json(speakers);
 });
 
+const imagesRaw = fs.readFileSync("images.json");
+const images = JSON.parse(imagesRaw);
+app.get("/images", (req, res) => {
+  res.json(images);
+});
+
 app.get("/general-info", (req, res) => {
   res.render("general-info");
 });
