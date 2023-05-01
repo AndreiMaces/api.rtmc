@@ -1,0 +1,37 @@
+[
+    {
+        "name" : "George CIRLIG",
+        "information": "(Ovidius University of Constanta, Romania)",
+        "faculty" : "Faculty of Mathematics and Computer Science, Ovidius University",
+        "address" : "124 Mamaia Bd., 900527, Constanta",
+        "email" : "cgeorge@univ-ovidius.ro"
+    },
+    {
+        "name" : "Viviana ENE",
+        "information": "(Ovidius University of Constanta, Romania)",
+        "faculty" : "Faculty of Mathematics and Computer Science, Ovidius University",
+        "address" : "124 Mamaia Bd., 900527, Constanta",
+        "email" : "vivian@univ-ovidius.ro"
+    },
+    {
+        "name" : "Denis IBADULA",
+        "information": "(Ovidius University of Constanta, Romania)",
+        "faculty" : "Faculty of Mathematics and Computer Science, Ovidius University",
+        "address" : "124 Mamaia Bd., 900527, Constanta",
+        "email" : "Denis.Ibadula@univ-ovidius.ro"
+    },
+    {
+        "name" : "Cristina SBURLAN",
+        "information": "(Ovidius University of Constanta, Romania)",
+        "faculty" : "Faculty of Mathematics and Computer Science, Ovidius University",
+        "address" : "124 Mamaia Bd., 900527, Constanta",
+        "email" : "c_sburlan@univ-ovidius.ro"
+    },
+    {
+        "name" : "A. Muhammed ULUDAĞ",
+        "information": "(Galatasaray University, Istanbul, Turkey) (Contact person for Turkish participants)",
+        "faculty" : "Department of Mathematics of Galatasaray University, Turkey",
+        "address" : "Ciragan Cad. No.36, Besiktas, Istanbul, 34357 Turkey",
+        "email" : "Muhammed.Uludag@gmail.com"
+    }
+]
