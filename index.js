@@ -20,15 +20,15 @@ app.get("/comitee", (req, res) => {
 const participantsRaw = fs.readFileSync("participants.json");
 const participants = JSON.parse(participantsRaw);
 app.get("/participants", (req, res) => {
-    req.json(participants);
+    res.json(participants);
 })
 
 const speakersRaw = fs.readFileSync("speakers.json");
 const speakers = JSON.parse(speakersRaw);
 app.get("/speakers", (req, res) => {
-    req.json(speakers);
+    res.json(speakers);
 })
 
-app.listen(3000, () => {
-    console.log("Listening on port 3000...");
+app.listen(3010, () => {
+    console.log("Listening on port 3010...");
 })
