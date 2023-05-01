@@ -23,6 +23,12 @@ app.get("/participants", (req, res) => {
     req.json(participants);
 })
 
+const speakersRaw = fs.readFileSync("speakers.json");
+const speakers = JSON.parse(speakersRaw);
+app.get("/speakers", (req, res) => {
+    req.json(speakers);
+})
+
 app.listen(3000, () => {
     console.log("Listening on port 3000...");
 })
